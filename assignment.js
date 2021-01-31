@@ -26,7 +26,7 @@ function budgetCalculator(watch, mobile, laptop) {
     var budgetForLaptop = laptop * 500;
     var total = budgetForWatch + budgetForMobile + budgetForLaptop;
     
-    if (watch, mobile, laptop >= 0) {
+    if (watch >= 0 && mobile >= 0 && laptop >= 0) {
         return total;
     }
     else {
